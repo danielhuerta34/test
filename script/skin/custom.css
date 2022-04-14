@@ -1,0 +1,48 @@
+.pdocrud-table-container .page-title {
+    background: #0092C8;
+    color: #ffffff;
+}
+
+.panel-default {
+    border: none;
+}
+
+.pdocrud-table-container .pdocrud-table-heading h3 {
+    float: left;
+    font-size: 20px;
+    margin: 0;
+    font-weight: 100;
+}
+
+thead {
+    color: #000;
+}
+
+.table-bordered>tbody>tr>td, .table-bordered>tbody>tr>th, .table-bordered>tfoot>tr>td, .table-bordered>tfoot>tr>th, .table-bordered>thead>tr>td, .table-bordered>thead>tr>th {
+    border: 1px solid #e0c6c6;
+}
+
+.panel-body {
+    padding: 15px;
+    border: 1px solid #e0c6c6;
+}
+
+header.panel-heading {
+    background: #0092c8!important;
+}
+
+.btn-group-sm>.btn, .btn-sm {
+    padding: 6px 6px;
+    font-size: 12px;
+    line-height: 1.5;
+    border-radius: 0px;
+}
+
+.panel-default>.panel-heading {
+    color: #fff;
+    border-color: #0092C8;
+}
+
+.pdocrud-table-container table tr.pdocrud-header-row {
+    color: #000;
+}

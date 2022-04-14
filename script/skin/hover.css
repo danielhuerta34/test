@@ -1,0 +1,54 @@
+@font-face {
+    font-family: "Open Sans', sans-serif";
+    src: url("https://fonts.googleapis.com/css?family=Open+Sans");
+}
+.pdocrud-table-container a{ color: #000;}
+.pdocrud-table-container .panel>.table-responsive{
+    background: #eee;
+}
+td.pdocrud-row-actions a:hover {
+    color: #fff;
+}
+td.pdocrud-row-actions a {
+    cursor: pointer;
+    min-width: 28px;
+    color: #a1a3a5;
+    display: inline-block;
+    position: relative;
+    vertical-align: central;
+    text-align: center;
+}
+.pdocrud-table-container .pdocrud-table-heading h3 {
+    float: left;
+    font-size: 15px;
+    margin: 0;
+    line-height: 2;
+}
+
+.pdocrud-pagination .pagination>li>a{
+    color:#000;
+}
+.pdocrud-pagination .pagination>.active>a{
+    background-color: #000;
+    border-color: #000;
+    color: #fff;
+}
+.table>thead:first-child>tr:first-child>th{
+    border-top: 0;
+}
+.pdocrud-table-container .table tbody tr td {
+    white-space: nowrap;
+    padding: 9px 15px;
+}
+.pdocrud-table-container table tr.pdocrud-header-row th{
+    padding: 9px 15px;    
+}
+.pdocrud-table tbody tr.pdocrud-data-row{
+    height: 60px;
+}
+.pdocrud-table tbody tr.pdocrud-data-row:hover td.pdocrud-row-actions{
+    position: sticky;
+    right: 0;
+    border-left: none;
+    margin-top: 0;
+}
